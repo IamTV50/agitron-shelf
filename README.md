@@ -1,28 +1,17 @@
-# Custom server with TypeScript + Nodemon example
+# Agitron shelf app
 
-The example shows how you can use [TypeScript](https://typescriptlang.com) on both the server and the client while using [Nodemon](https://nodemon.io/) to live reload the server code without affecting the Next.js universal code.
+Projekt ima samo inštalirane knjižnice da se ne rabite ukvarjati z inštalacijo.
 
-Server entry point is `server/index.ts` in development and `dist/index.js` in production.
-The second directory should be added to `.gitignore`.
+Pripravite aplikacijo s sledičimi lastnostmi:
 
-## Deploy your own
+-   uporabite knjižnice mui, formik, obvezno uporvljajte typescript
+-   na začetnem zaslonu naj bo link na "Oblikuj svojo polico"
+-   približajte se čim bolj disajnu, ki je priložen
+-   na polici naj bodo 4-je izdelki
+-   slider "spacing" naj nastavlja razmik med izdelki
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/custom-server-typescript)
+# eno imed izbirnih:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/custom-server-typescript)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example custom-server-typescript custom-server-typescript-app
-```
-
-```bash
-yarn create next-app --example custom-server-typescript custom-server-typescript-app
-```
-
-```bash
-pnpm create next-app --example custom-server-typescript custom-server-typescript-app
-```
+-   posamezen izdelek lahko selektamo (okoli se prikaze shadow obroba) in pod izdelki se prikaze se en slider kjer lahko nastavljamo zoom slike pri tem spacing vedno ostane enak kot je bil prej
+-   spacing za shelf in zoom za posamezen izdelek se naj shranjujejo v formikov state in pri kliku "Save" se naj to alerta
+-   omogočite razvrščanje izdelkov z react drag and drop (https://react-dnd.github.io/react-dnd/about)

@@ -1,18 +1,5 @@
-import Link from 'next/link'
+import { Box } from "@mui/material"
 
 export default function Home() {
-  return (
-    <ul>
-      <li>
-        <Link href="/a" as="/a">
-          <a>a</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/b" as="/b">
-          <a>b</a>
-        </Link>
-      </li>
-    </ul>
-  )
+    return <Box>Hello world!</Box>
 }
