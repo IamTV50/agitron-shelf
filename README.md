@@ -1,6 +1,7 @@
 # Agitron shelf app
 
 Projekt ima samo inštalirane knjižnice da se ne rabite ukvarjati z inštalacijo.
+Projekt lahko forkate in ga potem posredujete nazaj.
 
 Pripravite aplikacijo s sledičimi lastnostmi:
 
@@ -15,3 +16,5 @@ Pripravite aplikacijo s sledičimi lastnostmi:
 
 -   posamezen izdelek lahko selektamo (okoli se prikaze shadow obroba) in pod izdelki se prikaze se en slider kjer lahko nastavljamo zoom slike pri tem spacing vedno ostane enak kot je bil prej
 -   omogočite razvrščanje izdelkov z react drag and drop (https://react-dnd.github.io/react-dnd/about)
+
+Želimo vam veliko uspeha pri reševanju naloge.
