@@ -5,7 +5,7 @@ export default function Home() {
 	const router = useRouter();
 
 	const handleButtonClick = () => {
-		router.push('/new_shelf')
+		router.push('/shelf')
 	}
 
     return <Box>
