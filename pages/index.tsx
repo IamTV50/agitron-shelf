@@ -1,5 +1,14 @@
-import { Box } from "@mui/material"
+import { Box, Button } from "@mui/material"
+import { useRouter } from 'next/router';
 
 export default function Home() {
-    return <Box>Hello world!</Box>
+	const router = useRouter();
+
+	const handleButtonClick = () => {
+		router.push('/new_shelf')
+	}
+
+    return <Box>
+		<Button variant="contained" color="primary" onClick={handleButtonClick}>Oblikuj svojo polico</Button>
+	</Box>
 }
